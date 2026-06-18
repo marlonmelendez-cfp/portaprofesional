@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejercicio de Modelo de Caja </title>
+    <style>
+        .cajapadre{
+           width: 400px;
+         /*   aspect-ratio: 1/1;   */
+           height: 80px;
+            border: 2px solid;
+            padding: 5px;
+            background-color: aquamarine;
+            margin: 20px;   
+            border-width: 10px;
+            border-style: solid;
+            border-color: blueviolet;
+            border-radius: 1rem;       
+            position: static;     
+            
+        }
+
+        .cajahijo{
+            width: 250px;
+            height: 40px;
+            border: 2px solid rgb(14, 118, 7);
+            padding: 5px;
+            background-color: rgb(242, 108, 55);
+            margin: 20px;
+            position: relative;
+            top: -150px;
+            left: 500px;
+
+        }
+
+        .cajagrande{
+            width: fit-content;
+            height: fit-content;
+            border: 2px solid rgb(52, 42, 163);
+            padding: 5px;
+            background-color: rgb(236, 243, 32);
+            margin: 20px;
+
+        }
+
+        .menu{
+            position: fixed;
+            background-color: chartreuse;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav class="menu">
+        <a href="#"> Inicio </a>  &nbsp;&nbsp;
+        <a href="#"> Ayuda </a>  &nbsp;&nbsp;
+        <a href="#"> Acerca Nosotros </a> &nbsp;&nbsp;
+        <a href="#finalpagina"> Ir Final </a>
+    </nav>
+    <br>
+
+
+
+    <div class="cajapadre">
+        <h1> Titulo Principal de WebPage </h1>
+
+    </div>
+    <br><br>
+
+
+     <div class="cajahijo">
+        <h3>  Titulo de Menor Categoria h3  </h3>
+    </div>
+    <br><br>
+
+
+     <div class="cajagrande">
+        Contenido Caja Grande
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur sequi nesciunt tempora repellat recusandae impedit incidunt officiis laborum tempore minus accusamus, eos id amet asperiores? Tenetur eum vel accusantium consectetur culpa autem architecto, inventore maiores maxime reiciendis iste veritatis provident harum, quia odio. Nesciunt sint excepturi blanditiis, saepe quam molestias inventore beatae enim omnis sapiente doloremque aliquid earum aliquam.
+        <br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque id, repellat rerum minus provident recusandae quis libero aperiam! Officia, voluptate omnis? Sit quisquam molestias explicabo. Excepturi ad velit fuga culpa, dolor reiciendis saepe reprehenderit molestiae? Aliquam, nisi? Tempore et id magnam, itaque, hic consequuntur ducimus aliquam reiciendis fugit iure adipisci repellat sapiente nobis! Cupiditate voluptate totam distinctio quas at inventore dolores minus magni porro reprehenderit eius, veniam eos in sapiente exercitationem consequuntur possimus similique voluptates nostrum nam quisquam ab? A doloribus exercitationem numquam nesciunt, quos maiores ad libero deserunt natus dignissimos deleniti sed incidunt ipsa nam! Tenetur voluptas atque sed adipisci accusantium a dolorem modi excepturi, tempore, deleniti quasi culpa beatae necessitatibus repellendus architecto. Porro aperiam beatae cupiditate quasi harum quod excepturi repudiandae fuga tempora dicta illum, officia assumenda iure ad numquam nemo libero, laboriosam earum, neque eum. Aperiam nihil reiciendis quis quaerat aliquid odio totam consequuntur reprehenderit cumque enim, architecto, consectetur doloribus suscipit inventore porro maiores, fuga ea recusandae quam sunt autem aut! Laudantium minus mollitia quod, quas amet expedita tempore nisi quia accusantium in officiis nam obcaecati sapiente soluta itaque repellat, odit repellendus consequatur! Temporibus minus cupiditate repellat, culpa commodi assumenda eum, id eligendi corrupti blanditiis atque illo reprehenderit debitis fugit dolorum? Veniam eos cumque vel, error ab sapiente unde corporis dolorum tempora reiciendis inventore dicta repellendus recusandae accusamus ipsam dolor at quia consequatur, quibusdam iure. Iusto a earum eligendi aliquam fugiat veniam autem error perspiciatis voluptates. Iste assumenda minus neque reprehenderit voluptatum repudiandae facilis incidunt odio nulla.
+    </div>
+    
+    <hr id="finalpagina">
+
+</body>
+</html>
